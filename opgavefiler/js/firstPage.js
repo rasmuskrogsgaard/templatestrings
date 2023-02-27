@@ -1,14 +1,16 @@
 /* Opgave 1*/
 
-
-// din kode her
-
-
-/* Opgave 1*/
+const navn="Arne";
+const erfaring = 5;
 
 
-// din kode her
+const besked = `Hej ${navn} du har arbejdet i virksomheden i ${erfaring} år.`;
 
+console.log(besked);
+
+document.getElementById('message').innerHTML = besked;
+
+/* Opgave 2*/
 
 
 /* Opgave 3 - skriv videre på koden her: */
